@@ -1,4 +1,5 @@
-*.pickle
-*.txt
-datasets/*.txt
-Embedding_models\Struc2Vec\pickles\.pickle
+datasets/wn18/*.txt
+datasets/fb15k/*.txt
+datasets/wn18/*.pickle
+datasets/fb15k/*.pickle
+Embedding_models/Struc2Vec/pickles/.pickle

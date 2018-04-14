@@ -1,0 +1,32 @@
+average accuracy of model strucdiff2vec with Dimensions: 128 On dataset: fb15k given 3 iterations is =  0.8596
+average accuracy of model strucdiff2vec with Dimensions: 256 On dataset: fb15k given 3 iterations is =  0.8567
+average accuracy of model Infuser with Dimensions: 128 On dataset: fb15k given 3 iterations is =  0.6605
+average accuracy of model node2vec with Dimensions: 128 On dataset: fb15k given 3 iterations is =  0.6801
+average accuracy of model struc2vec with Dimensions: 64 On dataset: fb15k given 3 iterations is =  0.5289
+average accuracy of model struc2vec with Dimensions: 128 On dataset: fb15k given 3 iterations is =  0.5375
+average accuracy of model diff2vec with Dimensions: 64 On dataset: fb15k given 3 iterations is =  0.8262
+average accuracy of model diff2vec with Dimensions: 128 On dataset: fb15k given 3 iterations is =  0.6770
+average accuracy of model strucdiff2vec with Dimensions: 128 On dataset: wn18 given 3 iterations is =  0.8134
+average accuracy of model strucdiff2vec with Dimensions: 256 On dataset: wn18 given 3 iterations is =  0.6387
+average accuracy of model Infuser with Dimensions: 128 On dataset: wn18 given 3 iterations is =  0.8126
+average accuracy of model node2vec with Dimensions: 128 On dataset: wn18 given 3 iterations is =  0.9591
+average accuracy of model struc2vec with Dimensions: 64 On dataset: wn18 given 3 iterations is =  0.3846
+average accuracy of model struc2vec with Dimensions: 128 On dataset: wn18 given 3 iterations is =  0.4155
+average accuracy of model diff2vec with Dimensions: 64 On dataset: wn18 given 3 iterations is =  0.8049
+average accuracy of model diff2vec with Dimensions: 128 On dataset: wn18 given 3 iterations is =  0.9572
+('strucdiff2vec', 128, 'fb15k') [0.8569901315789473, 0.8575493421052631, 0.8643256578947368]
+('strucdiff2vec', 256, 'fb15k') [0.8541611842105263, 0.8615296052631579, 0.8543421052631579]
+('Infuser', 128, 'fb15k') [0.84375, 0.29776315789473684, 0.839983552631579]
+('node2vec', 128, 'fb15k') [0.8541940789473684, 0.8425986842105263, 0.34345394736842105]
+('struc2vec', 64, 'fb15k') [0.5487664473684211, 0.5099177631578947, 0.5280263157894737]
+('struc2vec', 128, 'fb15k') [0.5575493421052632, 0.48863486842105264, 0.5661677631578947]
+('diff2vec', 64, 'fb15k') [0.8346381578947368, 0.8368256578947368, 0.8070394736842105]
+('diff2vec', 128, 'fb15k') [0.3540296052631579, 0.8311513157894737, 0.8457894736842105]
+('strucdiff2vec', 128, 'wn18') [0.914479961832061, 0.9243201335877863, 0.6013835877862596]
+('strucdiff2vec', 256, 'wn18') [0.47650286259541985, 0.5257037213740458, 0.9138239503816794]
+('Infuser', 128, 'wn18') [0.7278745229007634, 0.7321087786259542, 0.9778148854961832]
+('node2vec', 128, 'wn18') [0.9608778625954199, 0.957418893129771, 0.9590887404580153]
+('struc2vec', 64, 'wn18') [0.41901240458015265, 0.3916984732824427, 0.3432132633587786]
+('struc2vec', 128, 'wn18') [0.40684637404580154, 0.42104007633587787, 0.4187142175572519]\\
+('diff2vec', 64, 'wn18') [0.9624284351145038, 0.48682013358778625, 0.9653506679389313]
+('diff2vec', 128, 'wn18') [0.9572996183206107, 0.9578363549618321, 0.9563454198473282]
