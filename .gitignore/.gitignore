@@ -1,2 +1,4 @@
-.pickle
-.txt
+*.pickle
+*.txt
+datasets/*.txt
+Embedding_models\Struc2Vec\pickles\.pickle
